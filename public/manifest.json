@@ -1,0 +1,23 @@
+{
+  "name": "E-Stream Premium TV",
+  "short_name": "E-Stream",
+  "description": "Premium IPTV platform featuring live channels, movies, and sports.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050811",
+  "theme_color": "#050811",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

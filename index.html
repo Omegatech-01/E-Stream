@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <title>E-Stream | Premium Live TV</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="shortcut icon" href="/favicon.png" />
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="E-Stream | Premium Live TV" />
+    <meta name="description" content="Clean and lightweight IPTV platform featuring live channels, movies, and sports." />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ais-pre-q2ax6ramapzdkvaaxcanfw-232441331316.europe-west2.run.app/" />
+    <meta property="og:title" content="E-Stream | Premium Live TV" />
+    <meta property="og:description" content="Clean and lightweight IPTV platform featuring live channels, movies, and sports." />
+    <meta property="og:image" content="/favicon.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://ais-pre-q2ax6ramapzdkvaaxcanfw-232441331316.europe-west2.run.app/" />
+    <meta property="twitter:title" content="E-Stream | Premium Live TV" />
+    <meta property="twitter:description" content="Clean and lightweight IPTV platform featuring live channels, movies, and sports." />
+    <meta property="twitter:image" content="/favicon.png" />
+    
+    <!-- PWA & Apple iOS Metadata -->
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#050811" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="E-Stream TV" />
+    <link rel="apple-touch-icon" href="https://ui-avatars.com/api/?name=E-Stream&background=0284c7&color=ffffff&size=180&bold=true" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-[#050811] text-slate-200 antialiased font-['Plus_Jakarta_Sans']">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch((err) => {
+            console.log('SW registration failed:', err);
+          });
+        });
+      }
+    </script>
+  </body>
+</html>
+
