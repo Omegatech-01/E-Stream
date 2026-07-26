@@ -66,7 +66,7 @@
 
 <div align="center">
 
-![E-Stream Interface Preview](public/media/preview.jpg)
+![E-Stream Interface Preview](public/favicon.png)
 
 </div>
 
