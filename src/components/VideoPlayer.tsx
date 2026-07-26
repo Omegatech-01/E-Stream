@@ -148,7 +148,6 @@ export default function VideoPlayer({ channel, isHeroPreview = false, isPip = fa
         const raw = parsed.searchParams.get('url');
         if (raw) streamUrl = raw;
       } catch (e) {
-        
       }
     }
 
@@ -220,7 +219,6 @@ export default function VideoPlayer({ channel, isHeroPreview = false, isPip = fa
                 hls.destroy();
                 hls = null;
               } catch (e) {
-                
               }
             }
             if (video) {
@@ -275,7 +273,6 @@ export default function VideoPlayer({ channel, isHeroPreview = false, isPip = fa
           videoRef.current.removeAttribute('src');
           videoRef.current.load();
         } catch (e) {
-          
         }
       }
       if (hls) {

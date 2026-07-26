@@ -24,7 +24,6 @@ export default function WatchPage({ channel, onBack, relatedChannels, onSelectCh
   const [showToast, setShowToast] = useState(false);
 
   const handleShare = async () => {
-    
     const url = new URL(window.location.href);
     url.searchParams.set('channel', channel.id);
     const shareUrl = url.toString();
@@ -44,7 +43,6 @@ export default function WatchPage({ channel, onBack, relatedChannels, onSelectCh
         }, 3000);
         return;
       } catch (err) {
-        
       }
     }
 
@@ -57,7 +55,6 @@ export default function WatchPage({ channel, onBack, relatedChannels, onSelectCh
         setShowToast(false);
       }, 3000);
     } catch (e) {
-      
       console.error('Failed to copy channel link:', e);
     }
   };

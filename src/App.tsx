@@ -268,7 +268,6 @@ export default function App() {
               )}
             </AnimatePresence>
             
-            {}
             {viewMode === 'dashboard' && (
               <div className="md:hidden fixed bottom-0 left-0 right-0 bg-[#0a0f1c]/90 backdrop-blur-xl border-t border-white/5 z-40 px-4 py-3 pb-safe flex justify-between items-center overflow-x-auto gap-4 hide-scrollbar">
                 {fullCategories.map(cat => (

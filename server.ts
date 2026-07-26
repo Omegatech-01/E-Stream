@@ -175,7 +175,6 @@ async function startServer() {
       try {
         origin = new URL(targetUrl).origin;
       } catch (e) {
-        
       }
 
       const reqHeaders: Record<string, string> = {

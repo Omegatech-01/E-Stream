@@ -204,7 +204,6 @@ export async function fetchChannels(): Promise<{ categories: Category[], channel
               logo = `https://www.google.com/s2/favicons?domain=${host}&sz=256`;
             }
           } catch (e) {
-            
           }
         }
 
