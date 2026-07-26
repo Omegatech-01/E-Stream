@@ -17,7 +17,7 @@ export async function subscribeToPush() {
     // In a real app, you would fetch the public VAPID key from your server
     // For this demo, we'll assume a generic or skip the actual crypto-signing part 
     // which normally requires web-push library and real keys.
-    // However, I will implement the registration flow.
+    // However, I have  implement the registration flow so u can used realone later.
     
     /*
     const subscription = await registration.pushManager.subscribe({
